@@ -17,6 +17,7 @@ function listNFTs(){
         console.log("rarity : ", nfts[i].rarity);
         console.log("backgroundColor : ", nfts[i].backgroundColor);
         console.log("hairStyle : ", nfts[i].hairStyle);
+        console.log('');
     }
 }
 
@@ -24,7 +25,9 @@ function getTotalSupply(){
     console.log('total supplies', nfts.length);
 }
 
-mintNFT('ABCD', 'rare', 'black', 'curly');
+mintNFT('Arush', 'rare', 'black', 'straigth');
+mintNFT('Aditya', 'common', 'black', 'curly');
+mintNFT('Manas', 'common', 'black', 'long');
 listNFTs();
 getTotalSupply();
 
